@@ -8,15 +8,26 @@
 <body>
     <form action="" method="post">
         <p>Digite seu nome:</p>
-        <input type="text" name="name">
+        <input type="text" name="name" placeholder="Samuel">
         <br> 
-        <input type="email" name="e-mail" value="@escola.pr.gov.br">
+        <input type="email" name="e-mail" value="@escola.pr.gov.br" placeholder="Digite seu e-mail completo">
         <br>
         <input type="number" name="phone">
         <br>
         <input type="radio" name="work" value="sim"> Com certeza
         <input type="radio" name="work" value="nao"> Sem certeza
         <br>
+        <select name="estados">
+            <option value="1">Acre</option> 
+            <option value="2">Parana</option> 
+            <option value="3">Tocantins</option> 
+            <option value="4">Santa Catarina</option> 
+            <option value="5">Rio Grande do Sul</option> 
+        </select>
+
+        <br>
+        <input type="checkbox" name="novidades" checked>Aceito receber novidades.
+    
     </form>    
     </body>
 </html>
